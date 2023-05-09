@@ -1,0 +1,71 @@
+﻿/*.btn:focus{outline:dotted 2px #000}*/
+.form-control:focus {
+    outline: 3px solid #397193;
+    outline-offset: 2px !important;
+}
+div.active:focus {
+    outline: dotted 1px #000
+}
+a:focus, .btn:focus, a:focus > img, .panel-heading:focus, input:focus, select:focus {
+    outline: 3px solid #397193;
+    outline-offset: 2px !important;
+}
+
+    a:focus > div > .img-thumbnail, a:focus img {
+        outline: 3px solid #397193;
+        outline-offset: 2px !important;
+    }
+
+#educ_nav_header a:focus, #educ_nav_header input:focus, .white-border:focus {
+    outline: 3px solid white;
+    outline-offset: 2px !important;
+}
+
+/*.book-preview > a:first-child:focus, #book-detail .col-sm-3 a:first-child {
+    outline: none !important;
+}*/
+
+.close:hover,.close:focus{outline:dotted 1px #000}
+.carousel-inner>.item{position:absolute;top:-999999em;display:block;-webkit-transition:0.6s ease-in-out left;-moz-transition:0.6s ease-in-out left;-o-transition:0.6s ease-in-out left;transition:0.6s ease-in-out left}
+.carousel-inner>.active{top:0}
+.carousel-inner>.active,.carousel-inner>.next,.carousel-inner>.prev{position:relative}
+.carousel-inner>.next,.carousel-inner>.prev{position:absolute;top:0;width:100%}
+.alert-success{color:#2d4821}
+.alert-info{color:#214c62}
+.alert-warning{color:#6c4a00;background-color:#f9f1c6}
+.alert-danger {color: #a82824 !important;}
+.alert-danger:hover{color:#a82824}
+#skip{
+    position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+        margin-left: 0;
+	text-align: center;
+	list-style: outside none;
+}
+
+#skip li{ list-style-type: none }
+
+#skip a{
+	position: absolute;
+	left: -99999px;
+	top: 75px;
+}
+
+#skip a:focus, #skip a:active{
+	position: relative;
+	left: -45px;
+	z-index:9999;
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 25px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 18px "Arial", "Freesans", sans-serif !important;
+	/* color information, edit this to suit the colors of your layout */
+        color: #462d89;
+	background: white;
+	border: 1px dotted #ffb4db;
+}
