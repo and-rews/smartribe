@@ -245,6 +245,14 @@ body {
   margin: 1rem;
 }
 
+.fashion-slider {
+  height: 70vh !important;
+}
+
+.fashion-slider-title-text {
+  text-shadow: 2px 2px #005fb3;
+}
+
 @media only screen and (max-width: 800px) {
   .vid video {
     width: 90vw;
