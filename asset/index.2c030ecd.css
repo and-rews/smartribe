@@ -591,9 +591,9 @@ button.swiper-pagination-bullet {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 700 !important;
-  text-shadow: 1px 1px #000000;
+  text-shadow: 1px 1px #ffffff;
   font-size: 16px;
 }
 
