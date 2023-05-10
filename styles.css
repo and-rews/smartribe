@@ -181,23 +181,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.team1 {
-  background-image: url("Portals/6/Images/smartribe-team-1.jpg");
-}
-
-.team2 {
-  background-image: url("Portals/6/Images/smartribe-team-2.png");
-}
-
-.team3 {
-  background-image: url("Portals/6/Images/smartribe-team-3.jpg");
-}
-
-.team4 {
-  background-image: url("Portals/6/Images/smartribe-team-4.jpg");
-  margin-top: -1rem;
-}
-
 .t-grid h3 {
   font-size: 25px !important;
 }

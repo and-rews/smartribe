@@ -41,7 +41,7 @@
 	<script type="module" crossorigin src="asset/index.a96ee5b7.js"></script>
 	<link rel="modulepreload" href="asset/vendor.1bb3b54e.js">
 	<link rel="stylesheet" href="asset/index.adebc3df.css">
-
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
 
 
@@ -286,7 +286,8 @@
 																		<div class="fashion-slider-title"
 																			data-swiper-parallax="-130%">
 																			<!-- slide title text -->
-																			<div class="fashion-slider-title-text">Educative Events
+																			<div class="fashion-slider-title-text">
+																				Educative Events
 																				Kids</div>
 																		</div>
 																		<!-- slide image wrap -->
@@ -303,7 +304,8 @@
 																		<div class="fashion-slider-title"
 																			data-swiper-parallax="-130%">
 																			<!-- slide title text -->
-																			<div class="fashion-slider-title-text">Smart Kids
+																			<div class="fashion-slider-title-text">Smart
+																				Kids
 																			</div>
 																		</div>
 																		<!-- slide image wrap -->
@@ -897,8 +899,24 @@
 	</form>
 
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<script>
 		AOS.init();
+	</script>
+
+	<script>
+		// console.log(n,'me')
+
+		var swiper = new Swiper('.swiper', {
+			// loop : true,
+			// autoplay: {
+				// delay:3000,
+			// },
+			// speed : 2000,			// delay: 1000, // Delay between slides in milliseconds
+			// disableOnInteraction: false, // Enable/disable autoplay on user interaction
+			// },
+		});
+
 	</script>
 
 	<!-- Cloudflare Pages Analytics -->
